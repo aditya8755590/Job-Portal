@@ -10,8 +10,10 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // ✅ Load .env from backend folder
-dotenv.config({ path: path.join(__dirname, ".env") });
-
+const envPath = path.join(__dirname, ".env");
+console.log("Loading .env from:", envPath);
+const result = dotenv.config({ path: envPath });
+console.log("Dotenv config result:", result);
 // ✅ Debug (remove later)
 console.log("API KEY:", process.env.API_KEY);
 
