@@ -26,7 +26,7 @@ const HeroSection = () => {
           <span className="text-[#6A38C2]">Dream Jobs</span>
         </h1>
         <p className="dark:text-gray-400">
-          "This job portal connects recruiters and job seekers with an intuitive
+          "This job portal connects recruiters and job seekers with an intuitive interface, providing a seamless experience for both parties. It offers a comprehensive
           platform for job postings and applications,
           <br /> featuring a streamlined admin panel for efficient management."
         </p>
