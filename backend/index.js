@@ -42,7 +42,7 @@ app.use("/api/v1/job", jobRoute);
 app.use("/api/v1/application", applicationRoute);
 
 // ✅ Port
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 
 // ✅ Start server
 app.listen(PORT, () => {
